@@ -1,6 +1,7 @@
 add_rules("mode.debug", "mode.release")
 
 target("LnkAssistant")
+    set_languages("c++20")
     add_rules("qt.widgetapp")
     add_headerfiles("src/*.h")
     add_files("src/*.cpp")

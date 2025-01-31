@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>841</width>
-    <height>530</height>
+    <width>881</width>
+    <height>797</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -52,10 +52,221 @@
            <string>Header Field</string>
           </property>
           <layout class="QGridLayout" name="gridLayout_3">
-           <item row="0" column="0">
-            <widget class="QLabel" name="label">
+           <item row="1" column="2">
+            <widget class="QLabel" name="label_4">
              <property name="text">
-              <string>Creation Date:</string>
+              <string>Target File Size:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Last Access Date:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="3">
+            <widget class="QListWidget" name="fileAttributes">
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_READONLY</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_HIDDEN</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_SYSTEM</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">Reserved1</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_DIRECTORY</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_ARCHIVE</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">Reserved2</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_NORMAL</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_TEMPORARY</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_SPARSE_FILE</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_REPARSE_POINT</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_COMPRESSED</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_OFFLINE</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_NOT_CONTENT_INDEXED</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string notr="true">FILE_ATTRIBUTE_ENCRYPTED</string>
+              </property>
+              <property name="checkState">
+               <enum>PartiallyChecked</enum>
+              </property>
+              <property name="flags">
+               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="QLineEdit" name="showType">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="2">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>File Attributes:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QLineEdit" name="accessDate">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>Show Type:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>Icon Index:</string>
              </property>
             </widget>
            </item>
@@ -66,14 +277,14 @@
              </property>
             </widget>
            </item>
-           <item row="5" column="0">
-            <widget class="QLabel" name="label_13">
-             <property name="text">
-              <string>Relative Path:</string>
+           <item row="1" column="3">
+            <widget class="QLineEdit" name="targetFileSize">
+             <property name="readOnly">
+              <bool>true</bool>
              </property>
             </widget>
            </item>
-           <item row="7" column="1">
+           <item row="6" column="1">
             <widget class="QListWidget" name="linkFlags">
              <item>
               <property name="text">
@@ -374,319 +585,8 @@
              </item>
             </widget>
            </item>
-           <item row="7" column="3">
-            <widget class="QListWidget" name="fileAttributes">
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_READONLY</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_HIDDEN</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_SYSTEM</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">Reserved1</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_DIRECTORY</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_ARCHIVE</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">Reserved2</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_NORMAL</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_TEMPORARY</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_SPARSE_FILE</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_REPARSE_POINT</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_COMPRESSED</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_OFFLINE</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_NOT_CONTENT_INDEXED</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string notr="true">FILE_ATTRIBUTE_ENCRYPTED</string>
-              </property>
-              <property name="checkState">
-               <enum>PartiallyChecked</enum>
-              </property>
-              <property name="flags">
-               <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsEnabled</set>
-              </property>
-             </item>
-            </widget>
-           </item>
-           <item row="5" column="3">
-            <widget class="QLineEdit" name="workingDir">
-             <property name="enabled">
-              <bool>false</bool>
-             </property>
-             <property name="readOnly">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item row="5" column="2">
-            <widget class="QLabel" name="label_14">
-             <property name="text">
-              <string>Working Directory:</string>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="1">
-            <widget class="QLineEdit" name="hotKey">
-             <property name="readOnly">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item row="7" column="2">
-            <widget class="QLabel" name="label_9">
-             <property name="text">
-              <string>File Attributes:</string>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="2">
-            <widget class="QLabel" name="label_10">
-             <property name="text">
-              <string>Description:</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="2">
-            <widget class="QLabel" name="label_2">
-             <property name="text">
-              <string>Last Access Date:</string>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="2">
-            <widget class="QLabel" name="label_11">
-             <property name="text">
-              <string>Target Path:</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="2">
-            <widget class="QLabel" name="label_4">
-             <property name="text">
-              <string>Target File Size:</string>
-             </property>
-            </widget>
-           </item>
            <item row="2" column="1">
             <widget class="QLineEdit" name="iconIndex">
-             <property name="readOnly">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="3">
-            <widget class="QLineEdit" name="accessDate">
-             <property name="readOnly">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="0">
-            <widget class="QLabel" name="label_12">
-             <property name="text">
-              <string>Root identifier:</string>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="2">
-            <widget class="QLabel" name="label_6">
-             <property name="text">
-              <string>Show Type:</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="0">
-            <widget class="QLabel" name="label_3">
-             <property name="text">
-              <string>Modification Date:</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="3">
-            <widget class="QLineEdit" name="targetFileSize">
-             <property name="readOnly">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="3">
-            <widget class="QLineEdit" name="targetPath">
-             <property name="readOnly">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item row="3" column="3">
-            <widget class="QLineEdit" name="description">
-             <property name="enabled">
-              <bool>false</bool>
-             </property>
-             <property name="readOnly">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="0">
-            <widget class="QLabel" name="label_5">
-             <property name="text">
-              <string>Icon Index:</string>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="3">
-            <widget class="QLineEdit" name="showType">
-             <property name="readOnly">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="1">
-            <widget class="QLineEdit" name="rootIdentifier">
-             <property name="readOnly">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item row="5" column="1">
-            <widget class="QLineEdit" name="relativePath">
-             <property name="enabled">
-              <bool>false</bool>
-             </property>
              <property name="readOnly">
               <bool>true</bool>
              </property>
@@ -699,7 +599,14 @@
              </property>
             </widget>
            </item>
-           <item row="7" column="0">
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="hotKey">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
             <widget class="QLabel" name="label_8">
              <property name="text">
               <string>Link Flags:</string>
@@ -713,14 +620,260 @@
              </property>
             </widget>
            </item>
-           <item row="6" column="0">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Creation Date:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Modification Date:</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="title">
+           <string>Link Target ID List Field</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="2">
+            <widget class="QLineEdit" name="rootIdentifier">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="5">
+            <widget class="QLineEdit" name="shortName">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLineEdit" name="volume">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QLineEdit" name="longName">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_19">
+             <property name="text">
+              <string>Localized Name:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="5">
+            <widget class="QCheckBox" name="isRemovable">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_21">
+             <property name="text">
+              <string>Volume:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QLabel" name="label_18">
+             <property name="text">
+              <string>Short Name:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>Root identifier:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>Long Name:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="3">
+            <widget class="QLabel" name="label_17">
+             <property name="text">
+              <string>Is Removable:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLineEdit" name="localizedName">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="title">
+           <string>Link Info Field</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="1" column="2">
+            <widget class="QLabel" name="label_24">
+             <property name="text">
+              <string>Local Base Path:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="label_22">
+             <property name="text">
+              <string>Volume Serial Number:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="volumeLabel">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QLineEdit" name="localBasePath">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="3">
+            <widget class="QLineEdit" name="serialNumber">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_20">
+             <property name="text">
+              <string>Volume Label:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_25">
+             <property name="text">
+              <string>Local Base Path Unicode:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="localBasePathUnicode">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_23">
+             <property name="text">
+              <string>Drive Type:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="driveType">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="title">
+           <string>String Field</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="0" column="3">
+            <widget class="QLineEdit" name="relativePath">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>Relative Path:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>Description:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="description">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>Working Directory:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="workingDir">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
             <widget class="QLabel" name="label_15">
              <property name="text">
               <string>Command Line:</string>
              </property>
             </widget>
            </item>
-           <item row="6" column="1">
+           <item row="1" column="3">
             <widget class="QLineEdit" name="commandLine">
              <property name="enabled">
               <bool>false</bool>
@@ -730,14 +883,14 @@
              </property>
             </widget>
            </item>
-           <item row="6" column="2">
+           <item row="2" column="0">
             <widget class="QLabel" name="label_16">
              <property name="text">
               <string>Icon Location:</string>
              </property>
             </widget>
            </item>
-           <item row="6" column="3">
+           <item row="2" column="1">
             <widget class="QLineEdit" name="iconLocation">
              <property name="enabled">
               <bool>false</bool>
@@ -749,19 +902,6 @@
            </item>
           </layout>
          </widget>
-        </item>
-        <item>
-         <spacer name="verticalSpacer">
-          <property name="orientation">
-           <enum>Qt::Orientation::Vertical</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>20</width>
-            <height>40</height>
-           </size>
-          </property>
-         </spacer>
         </item>
        </layout>
       </widget>
@@ -779,8 +919,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>841</width>
-     <height>24</height>
+     <width>881</width>
+     <height>37</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuAbout">

@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "lnk.h"
 #include <QLineEdit>
 #include <QMainWindow>
 #include <tuple>
@@ -27,16 +28,27 @@ private:
   uint16_t updateLinkTargetIdListField(void *buffer);
   uint32_t updateLinkInfoField(void *buffer);
   uint32_t updateStringFieldUtf16(void *buffer, QLineEdit *output);
-  QString parseVolumeId(void *buffer);
+  std::tuple<QString, uint32_t, uint32_t> parseVolumeId(void *buffer);
   QString parseLocalBasePath(void *buffer);
   QString parseLocalBasePathUnicode(void *buffer);
-  std::tuple<QString, QUuid> parseRootFolderShellItem(void *buffer);
-  QString parseVolumeShellItem(void *buffer);
-  std::tuple<QString, bool> parseFileEntryShellItem(void *buffer);
-  std::tuple<uint16_t, QString> parseFileEntryExtensionBlock1(void *buffer);
-  static std::tuple<QString, QString> parseHotKey(uint16_t hot_key);
+  std::tuple<QString, uint8_t> parseRootFolderShellItem(void *buffer);
+  std::tuple<QString, bool> parseVolumeShellItem(void *buffer);
+  std::tuple<QString, QString, QString, bool>
+  parseFileEntryShellItem(void *buffer);
+  std::tuple<uint16_t, QString, QString>
+  parseFileEntryExtensionBlock04(void *buffer);
+
+  void updateTimeField(const ShellLinkHeader *header);
+  void updateHotKeyField(const ShellLinkHeader *header);
+  void updateFileSizeField(const ShellLinkHeader *header);
+  void updateLinkFlagsField(const ShellLinkHeader *header);
+  void updateFileAttributesField(const ShellLinkHeader *header);
+  void updateShowTypeField(const ShellLinkHeader *header);
+
+  static QString parseHotKey(std::tuple<std::string, std::string> hot_key);
   static QString parseShowWindow(uint16_t show_window);
   static void *movePointer(void *pointer, size_t offset);
+  static QString pushPath(QString &path, bool is_file, bool is_localize);
 };
 
 #endif // MAINWINDOW_H
