@@ -4,6 +4,7 @@
 #include <QFileDialog>
 #include <QMessageBox>
 #include <QString>
+#include <bitset>
 
 #define UNIX_EPOCH_IN_FILETIME 116444736000000000ULL
 
